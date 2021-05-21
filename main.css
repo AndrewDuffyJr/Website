@@ -1,0 +1,29 @@
+@font-face {
+    font-family: Iosevka;
+    src: url(Fonts/iosevka.ttc);
+}
+
+* { 
+
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #454545;
+    font-family: Iosevka;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.name {
+   
+}
+
+body {
+    margin: 0px;
+    height: 100vh;
+    overflow: hidden;
+}
