@@ -1,12 +1,3 @@
-@font-face {
-    font-family: Iosevka;
-    src: url(Fonts/iosevka.ttc);
-}
-
-* { 
-
-}
-
 .main {
     display: flex;
     align-items: center;
