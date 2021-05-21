@@ -12,18 +12,46 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    color: #454545;
-    font-family: Iosevka;
-    font-size: 20px;
-    font-weight: 300;
 }
 
 .name {
    
 }
 
+.github {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding-right: 2.5px;
+    margin: 0;
+    height: 30px;
+    
+}
+
 body {
     margin: 0px;
     height: 100vh;
     overflow: hidden;
+    color: #454545;
+    font-family: Iosevka;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    font-style: oblique;
+    color: rgb(70, 70, 70);
 }
