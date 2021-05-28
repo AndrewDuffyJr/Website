@@ -1,10 +1,13 @@
+/*                Center Main Content               */
 .main {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
 }
+/*                Center Main Content               */
 
+/*                  Github Logo                     */
 .github {
     position: fixed;
     bottom: 0;
@@ -13,6 +16,7 @@
     margin: 0;
     height: 30px;
 }
+/*                  Github Logo                     */
 
 body {
     margin: 0px;
@@ -22,8 +26,10 @@ body {
     font-family: Iosevka;
     font-size: 20px;
     font-weight: 400;
+
 }
 
+/*                  Hover Effects                   */
 a {
     text-decoration: none;
     font-weight: bold;
@@ -41,3 +47,24 @@ a:hover {
     font-style: oblique;
     color: rgb(70, 70, 70);
 }
+/*                  Hover Effects                   */
+
+/*                  Loading Content                 */
+@keyframes test {
+    50% {opacity: 0;height: 0vh;}
+    100% {align-items:unset;justify-content: unset;opacity: 0;height: 0vh;}
+}
+
+.loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    opacity: 1;
+    animation-name: test;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+/*                  Loading Content                 */
